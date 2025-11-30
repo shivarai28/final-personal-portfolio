@@ -53,18 +53,20 @@
     }
 } 
  
-@media (max-width: 768px) {
+@media (max-width: 700px) {
     .navbar {
         position: fixed;
         bottom: 0;
-        right: 0;
-      
+        left: auto;
+        right: auto;
+        width: 94%;
+        
         top: auto;
-        font-size: 12px;
+        font-size: 14px;
 
         border-radius: 20px 20px 0 0;
         border: 1px solid var(--bg-card-border);
-        padding: 5px 10px; 
+        padding: 15px 15px; 
         background: hsla(240, 1%, 17%, 0.75);
         backdrop-filter: blur(10px);
         border-top: 1px solid var(--bg-card-border);
@@ -85,6 +87,7 @@
 @media (max-width: 425px) {
     .navbar {
         font-size: 10px;
+        width: 88%;
     }
     .navbar-link {
         font-size: 10px;

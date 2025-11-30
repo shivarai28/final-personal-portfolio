@@ -114,18 +114,38 @@ textarea.form-input {
     background: var(--bg-gradient-jet);
 }
 
-@media (min-width: 580px) {
-    .mapbox {
-        height: 380px;
-        border-radius: 18px;
-    }
-}
 
 @media (min-width: 768px) {
     .input-wrapper {
         grid-template-columns: 1fr 1fr;
     }
-
+    .contact{
+       
+    }
+    .form-btn {
+        width: max-content;
+        margin-left: auto;
+        padding: 16px 20px;
+    }
+}
+@media (min-width: 580px) {
+    .contact{
+        max-width: 100%;
+    }
+ 
+    .mapbox {
+        height: 380px;
+        width: 100%;
+        border-radius: 18px;
+    }
+}
+@media (max-width:580px) {
+      .input-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+    .contact{
+       width: 100%;
+    }
     .form-btn {
         width: max-content;
         margin-left: auto;

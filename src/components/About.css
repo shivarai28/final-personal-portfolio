@@ -1,0 +1,179 @@
+.about {
+    background: var(--bg-card);
+    border: 1px solid var(--bg-card-border);
+    box-shadow: 0 16px 30px hsla(0, 0%, 0%, 0.125);
+    border-radius: 20px;
+    padding: 30px;
+    position: relative;
+}
+
+.about::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--bg-card-border);
+    border-radius: inherit;
+    z-index: -1;
+}
+
+.about-text {
+    color: var(--text-secondary);
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+}
+
+.service-title {
+    color: var(--text-primary);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.service-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 35px;
+}
+
+.service-item {
+    background: var(--bg-card-border);
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 16px 30px hsla(0, 0%, 0%, 0.125);
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    position: relative;
+    z-index: 1;
+}
+
+.service-item::before {
+    content: "";
+    position: absolute;
+    inset: 1px;
+    background: #222224;
+    border-radius: inherit;
+    z-index: -1;
+}
+
+.service-icon-box {
+    margin-bottom: 10px;
+}
+
+.service-item-title {
+    color: var(--text-primary);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.service-item-text {
+    color: var(--text-secondary);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.skills {
+    background: var(--bg-card);
+    border: 1px solid var(--bg-card-border);
+    box-shadow: 0 16px 30px hsla(0, 0%, 0%, 0.125);
+    border-radius: 20px;
+    padding: 30px;
+    position: relative;
+}
+
+.skills::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--bg-card-border);
+    border-radius: inherit;
+    z-index: -1;
+}
+
+/* Skills Section - styled like clients carousel */
+.skills-title {
+    color: var(--text-primary);
+
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+}
+
+.skills-list {
+   
+    /* display:grid;
+    grid-template-columns: repeat(1, 1fr); */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow: hidden;
+    gap: 15px;
+    margin: 0 -15px;
+    padding: 25px 25px 35px;
+    
+
+}
+.skills-list::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--bg-card-border);
+    border-radius: inherit;
+    z-index: -1;
+}
+
+
+/* Yellow scrollbar for skills */
+.skills-list::-webkit-scrollbar {
+    height: 5px;
+
+}
+
+.skills-list::-webkit-scrollbar-track {
+    background: var(--bg-card-border);
+    border-radius: 5px;
+}
+
+.skills-list::-webkit-scrollbar-thumb {
+    background: var(--text-gold);
+    border-radius: 5px;
+}
+
+.skill-item {
+    background: var(--bg-card-border);
+    color: var(--text-primary);
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+    scroll-snap-align: start;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.skill-item:hover {
+    background: var(--bg-gradient-yellow-2);
+    color: var(--text-gold);
+}
+
+.skill-item svg {
+    flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+    .service-list {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,131 @@
+{
+  "sidebar": {
+    "name": "Shiva Rai",
+    "role": "Backend Developer | Full Stack Developer",
+    "avatar": "https://avatars.githubusercontent.com/u/206543593?s=4000&u=6ebf708f8bb06d4685928cf86ed821fd3628833f&v=4",
+    "contacts": [
+      {
+        "id": "email",
+        "title": "Email",
+        "value": "shivarai9098@gmail.com",
+        "link": "mailto:shivarai9098@gmail.com",
+        "icon": "Mail"
+      },
+      {
+        "id": "phone",
+        "title": "Phone",
+        "value": "+91 9098271003",
+        "link": "tel:+919098271003",
+        "icon": "Phone"
+      },
+      {
+        "id": "birthday",
+        "title": "Birthday",
+        "value": "28 March 2004",
+        "dateTime": "2004-03-28",
+        "icon": "Calendar"
+      },
+      {
+        "id": "location",
+        "title": "Location",
+        "value": "Bhopal, India ,462023",
+        "icon": "MapPin"
+      }
+    ],
+    "socials": [
+      {
+        "platform": "Linkedin",
+        "link": "#",
+        "icon": "Linkedin"
+      },
+      {
+        "platform": "Github",
+        "link": "#",
+        "icon": "Github"
+      },
+      {
+        "platform": "Instagram",
+        "link": "#",
+        "icon": "Instagram"
+      }
+    ]
+  },
+  "about": {
+    "intro": [
+      "I'm a Backend and Full Stack Developer passionate about building scalable, high‑performance web applications.",
+      "I enjoy turning complex problems into elegant solutions, leveraging modern technologies and best practices."
+    ],
+    "services": [
+      {
+        "title": "Backend Development",
+        "description": "Design and implement robust server-side logic, APIs, and databases.",
+        "icon": "Server"
+      },
+      {
+        "title": "Full Stack Development",
+        "description": "Build end-to-end applications covering both front-end and back-end.",
+        "icon": "Code"
+      },
+      {
+        "title": "API Design",
+        "description": "Create clean, scalable RESTful and GraphQL APIs.",
+        "icon": "Database"
+      },
+      {
+        "title": "Cloud Architecture",
+        "description": "Deploy and manage applications on cloud platforms with CI/CD.",
+        "icon": "Cloud"
+      }
+    ],
+    "skills": [
+      { "name": "React", "icon": "Code" },
+      { "name": "Node.js", "icon": "Server" },
+      { "name": "MongoDB", "icon": "Database" },
+      { "name": "PostgreSQL", "icon": "Database" },
+      { "name": "Docker", "icon": "Container" },
+      { "name": "Microservices", "icon": "Network" },
+      { "name": "Python", "icon": "FileCode" }
+    ]
+  },
+  "resume": {
+    "education": [
+      {
+        "title": "sagar institute of technology",
+        "date": "2022 — 2026",
+        "description": "Btech in Information Technology,electronics and communication engineering"
+      },
+      {
+        "title": "subash excellence school",
+        "date": "2021-2022",
+        "description": "12th"
+      },
+      {
+        "title": "subash excellence school",
+        "date": "2019-2020",
+        "description": "10th"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Internship",
+        "date": "jan 2025 — april 2025",
+        "description": "intern at omniview labs"
+      }
+    ],
+    "skillsText": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, in vel voluptate hic, illo beatae, nobis esse magni at cumque commodi. Dolores, dolorem! Dignissimos quaerat nihil iusto deleniti deserunt perspiciatis!"
+  },
+  "portfolio": {
+    "projects": [
+      { "id": 1, "title": "REST API Service", "category": "Backend Development", "image": "https://picsum.photos/id/1011/800/600" },
+      { "id": 2, "title": "GraphQL Server", "category": "Backend Development", "image": "https://picsum.photos/id/1012/800/600" },
+      { "id": 3, "title": "Full Stack App", "category": "Full Stack", "image": "https://picsum.photos/id/1013/800/600" },
+      { "id": 4, "title": "Microservices Architecture", "category": "Backend Development", "image": "https://picsum.photos/id/1014/800/600" },
+      { "id": 5, "title": "CI/CD Pipeline", "category": "DevOps", "image": "https://picsum.photos/id/1015/800/600" },
+      { "id": 6, "title": "Cloud Deployment", "category": "DevOps", "image": "https://picsum.photos/id/1016/800/600" },
+      { "id": 7, "title": "Authentication System", "category": "Full Stack", "image": "https://picsum.photos/id/1017/800/600" },
+      { "id": 8, "title": "Database Design", "category": "Backend Development", "image": "https://picsum.photos/id/1018/800/600" },
+      { "id": 9, "title": "Serverless Functions", "category": "Backend Development", "image": "https://picsum.photos/id/1019/800/600" }
+    ],
+    "categories": ["All", "Backend Development", "Full Stack", "DevOps"]
+  }
+}

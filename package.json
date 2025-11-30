@@ -1,5 +1,5 @@
 {
-    "name": "portfolio",
+    "name": "portfolio-1",
     "private": true,
     "version": "0.0.0",
     "type": "module",
@@ -26,5 +26,17 @@
         "eslint-plugin-react-hooks": "^4.6.0",
         "eslint-plugin-react-refresh": "^0.4.4",
         "vite": "^5.0.0"
-    }
+    },
+    "description": "A modern, responsive portfolio website built with React and Vite.",
+    "main": "vite.config.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/shivarai28/final-personal-portfolio.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/shivarai28/final-personal-portfolio/issues"
+    },
+    "homepage": "https://github.com/shivarai28/final-personal-portfolio#readme"
 }

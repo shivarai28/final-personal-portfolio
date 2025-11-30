@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 
-const GIST_URL = import.meta.env.VITE_GIST_URL || 'LOCAL';
+// Use environment variable, fallback to Gist URL if not set
+const GIST_URL = import.meta.env.VITE_GIST_URL || 'https://gist.githubusercontent.com/shivarai28/f2934d326c926cb1b88eab654c800d64/raw/c50d86ddb4e4011f6dc302dc258e140e94b72bd8/portfolioData.json';
 const CACHE_KEY = 'portfolioData';
 const CACHE_DURATION = 5 * 60 * 1000; // 5 minutes
 
@@ -12,13 +13,20 @@ export const usePortfolioData = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
+                // Debug: Log the Gist URL being used
+                console.log('🔍 GIST_URL:', GIST_URL);
+                console.log('🔍 Environment:', import.meta.env.MODE);
+                
                 // Check if using local fallback
                 if (GIST_URL === 'LOCAL') {
+                    console.log('📁 Using local portfolioData.json');
                     const localData = await import('../data/portfolioData.json');
                     setData(localData.default);
                     setLoading(false);
                     return;
                 }
+
+                console.log('🌐 Fetching from Gist:', GIST_URL);
 
                 // Check cache first
                 const cached = localStorage.getItem(CACHE_KEY);

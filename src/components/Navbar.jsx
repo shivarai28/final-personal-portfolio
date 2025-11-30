@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Navbar = ({ activeTab, setActiveTab }) => {
   
     const navLinks = [
-        { name: 'About', path: '/about' },
+        { name: 'About', path: '/' },
         { name: 'Resume', path: '/resume' },
         { name: 'Projects', path: '/projects' },
         { name: 'Blog', path: '/blog' },

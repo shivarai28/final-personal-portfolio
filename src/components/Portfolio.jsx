@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Eye } from 'lucide-react';
 import './Portfolio.css';
 import { usePortfolioData } from '../hooks/usePortfolioData';
@@ -84,7 +85,7 @@ const ProjectItem = ({ project }) => {
 
     return (
         <li className="project-item active">
-            <a href="#">
+            <Link to={`/projects/${project.id}`}>
                 <figure className="project-img" style={{ backgroundColor: 'var(--bg-card)' }}>
                     {/* Blank placeholder while loading; background color provides space */}
                     <img
@@ -97,7 +98,7 @@ const ProjectItem = ({ project }) => {
                 </figure>
                 <h3 className="project-title">{project.title}</h3>
                 <p className="project-category">{project.category}</p>
-            </a>
+            </Link>
         </li>
     );
 };

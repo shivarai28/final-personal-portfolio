@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Blog.css';
 
 const Blog = () => {
@@ -63,7 +64,7 @@ const Blog = () => {
                 <ul className="blog-posts-list">
                     {posts.map(post => (
                         <li className="blog-post-item" key={post.id}>
-                            <a href="#">
+                            <Link to={`/blog/${post.id}`}>
                                 <figure className="blog-banner-box">
                                     <img src={post.image} alt={post.title} loading="lazy" />
                                 </figure>
@@ -76,7 +77,7 @@ const Blog = () => {
                                     <h3 className="h3 blog-item-title">{post.title}</h3>
                                     <p className="blog-text">{post.description}</p>
                                 </div>
-                            </a>
+                            </Link>
                         </li>
                     ))}
                 </ul>

@@ -116,16 +116,166 @@
   },
   "portfolio": {
     "projects": [
-      { "id": 1, "title": "REST API Service", "category": "Backend Development", "image": "https://picsum.photos/id/1011/800/600" },
-      { "id": 2, "title": "GraphQL Server", "category": "Backend Development", "image": "https://picsum.photos/id/1012/800/600" },
-      { "id": 3, "title": "Full Stack App", "category": "Full Stack", "image": "https://picsum.photos/id/1013/800/600" },
-      { "id": 4, "title": "Microservices Architecture", "category": "Backend Development", "image": "https://picsum.photos/id/1014/800/600" },
-      { "id": 5, "title": "CI/CD Pipeline", "category": "DevOps", "image": "https://picsum.photos/id/1015/800/600" },
-      { "id": 6, "title": "Cloud Deployment", "category": "DevOps", "image": "https://picsum.photos/id/1016/800/600" },
-      { "id": 7, "title": "Authentication System", "category": "Full Stack", "image": "https://picsum.photos/id/1017/800/600" },
-      { "id": 8, "title": "Database Design", "category": "Backend Development", "image": "https://picsum.photos/id/1018/800/600" },
-      { "id": 9, "title": "Serverless Functions", "category": "Backend Development", "image": "https://picsum.photos/id/1019/800/600" }
+      { 
+        "id": 1, 
+        "title": "REST API Service", 
+        "category": "Backend Development", 
+        "image": "https://picsum.photos/id/1011/800/600",
+        "date": "December 2024",
+        "description": "A comprehensive RESTful API service built with Node.js and Express, featuring JWT authentication, rate limiting, and comprehensive error handling. This service provides a robust backend infrastructure for modern web applications with scalable architecture and best practices.",
+        "technologies": ["Node.js", "Express", "MongoDB", "JWT", "Redis"],
+        "features": [
+          "JWT-based authentication and authorization",
+          "Rate limiting and request throttling",
+          "Comprehensive API documentation with Swagger",
+          "Error handling and logging middleware",
+          "Database indexing for optimal performance"
+        ],
+        "githubUrl": "https://github.com/shivarai28/rest-api-service",
+        "liveUrl": "https://api-demo.example.com"
+      },
+      { 
+        "id": 2, 
+        "title": "GraphQL Server", 
+        "category": "Backend Development", 
+        "image": "https://picsum.photos/id/1012/800/600",
+        "date": "November 2024",
+        "description": "A modern GraphQL server implementation using Apollo Server, providing flexible and efficient data querying capabilities. Features include real-time subscriptions, data loader for batch processing, and comprehensive schema design.",
+        "technologies": ["GraphQL", "Apollo Server", "Node.js", "PostgreSQL", "DataLoader"],
+        "features": [
+          "Type-safe schema with GraphQL SDL",
+          "Real-time data with subscriptions",
+          "Efficient data fetching with DataLoader",
+          "Query complexity analysis",
+          "Integrated GraphQL Playground"
+        ],
+        "githubUrl": "https://github.com/shivarai28/graphql-server",
+        "liveUrl": "https://graphql-demo.example.com"
+      },
+      { 
+        "id": 3, 
+        "title": "Full Stack App", 
+        "category": "Full Stack", 
+        "image": "https://picsum.photos/id/1013/800/600",
+        "date": "October 2024",
+        "description": "A complete full-stack application built with React and Node.js, featuring user authentication, real-time updates, and responsive design. Implements modern development practices including state management, API integration, and deployment automation.",
+        "technologies": ["React", "Node.js", "Express", "MongoDB", "Socket.io", "Redux"],
+        "features": [
+          "Real-time communication with WebSockets",
+          "State management with Redux Toolkit",
+          "Responsive UI with modern design patterns",
+          "User authentication and authorization",
+          "Automated testing with Jest and React Testing Library"
+        ],
+        "githubUrl": "https://github.com/shivarai28/fullstack-app",
+        "liveUrl": "https://fullstack-demo.example.com"
+      },
+      { 
+        "id": 4, 
+        "title": "Microservices Architecture", 
+        "category": "Backend Development", 
+        "image": "https://picsum.photos/id/1014/800/600",
+        "date": "September 2024",
+        "description": "A scalable microservices architecture implementing service discovery, API gateway, and inter-service communication. Built with Docker containers and orchestrated with Kubernetes for high availability and fault tolerance.",
+        "technologies": ["Node.js", "Docker", "Kubernetes", "RabbitMQ", "Consul", "Nginx"],
+        "features": [
+          "Service discovery with Consul",
+          "API Gateway with rate limiting",
+          "Message queue for async communication",
+          "Container orchestration with Kubernetes",
+          "Health checks and auto-scaling"
+        ],
+        "githubUrl": "https://github.com/shivarai28/microservices-arch"
+      },
+      { 
+        "id": 5, 
+        "title": "CI/CD Pipeline", 
+        "category": "Frontend Development", 
+        "image": "https://picsum.photos/id/1015/800/600",
+        "date": "August 2024",
+        "description": "Automated CI/CD pipeline using GitHub Actions and Jenkins, implementing continuous integration, testing, and deployment workflows. Features include automated testing, code quality checks, and multi-environment deployments.",
+        "technologies": ["GitHub Actions", "Jenkins", "Docker", "AWS", "Terraform"],
+        "features": [
+          "Automated testing on every commit",
+          "Code quality analysis with SonarQube",
+          "Multi-stage deployment pipeline",
+          "Infrastructure as Code with Terraform",
+          "Automated rollback on failures"
+        ],
+        "githubUrl": "https://github.com/shivarai28/cicd-pipeline"
+      },
+      { 
+        "id": 6, 
+        "title": "Cloud Deployment", 
+        "category": "Frontend Development", 
+        "image": "https://picsum.photos/id/1016/800/600",
+        "date": "July 2024",
+        "description": "Cloud-native application deployment on AWS using modern DevOps practices. Implements auto-scaling, load balancing, and monitoring solutions for production-grade applications with high availability.",
+        "technologies": ["AWS", "Terraform", "CloudWatch", "ECS", "RDS"],
+        "features": [
+          "Auto-scaling based on metrics",
+          "Load balancing with AWS ALB",
+          "Monitoring and alerting with CloudWatch",
+          "Database replication and backups",
+          "CDN integration with CloudFront"
+        ],
+        "githubUrl": "https://github.com/shivarai28/cloud-deployment",
+        "liveUrl": "https://cloud-demo.example.com"
+      },
+      { 
+        "id": 7, 
+        "title": "Authentication System", 
+        "category": "Full Stack", 
+        "image": "https://picsum.photos/id/1017/800/600",
+        "date": "June 2024",
+        "description": "A comprehensive authentication and authorization system featuring multiple authentication strategies, role-based access control, and secure session management. Implements OAuth 2.0, JWT tokens, and two-factor authentication.",
+        "technologies": ["Node.js", "Passport.js", "JWT", "Redis", "React", "OAuth 2.0"],
+        "features": [
+          "Multiple authentication strategies (Local, Google, GitHub)",
+          "Role-based access control (RBAC)",
+          "Two-factor authentication (2FA)",
+          "Secure session management with Redis",
+          "Password reset and email verification"
+        ],
+        "githubUrl": "https://github.com/shivarai28/auth-system",
+        "liveUrl": "https://auth-demo.example.com"
+      },
+      { 
+        "id": 8, 
+        "title": "Database Design", 
+        "category": "Backend Development", 
+        "image": "https://picsum.photos/id/1018/800/600",
+        "date": "May 2024",
+        "description": "Advanced database design and optimization project showcasing schema design, indexing strategies, and query optimization. Implements both SQL and NoSQL databases with migration strategies and data modeling best practices.",
+        "technologies": ["PostgreSQL", "MongoDB", "Redis", "Prisma", "TypeORM"],
+        "features": [
+          "Normalized database schema design",
+          "Advanced indexing for performance",
+          "Database migration strategies",
+          "Query optimization and profiling",
+          "Data replication and sharding"
+        ],
+        "githubUrl": "https://github.com/shivarai28/database-design"
+      },
+      { 
+        "id": 9, 
+        "title": "Serverless Functions", 
+        "category": "Backend Development", 
+        "image": "https://picsum.photos/id/1019/800/600",
+        "date": "April 2024",
+        "description": "Collection of serverless functions deployed on AWS Lambda, demonstrating event-driven architecture and cost-effective scaling. Includes API endpoints, scheduled tasks, and event processors with minimal infrastructure management.",
+        "technologies": ["AWS Lambda", "API Gateway", "DynamoDB", "S3", "CloudWatch"],
+        "features": [
+          "Event-driven architecture",
+          "Auto-scaling with zero maintenance",
+          "Pay-per-use pricing model",
+          "Integration with AWS services",
+          "Monitoring and logging"
+        ],
+        "githubUrl": "https://github.com/shivarai28/serverless-functions",
+        "liveUrl": "https://serverless-demo.example.com"
+      }
     ],
-    "categories": ["All", "Backend Development", "Full Stack", "DevOps"]
+    "categories": ["All", "Backend Development", "Full Stack","Frontend Development"]
   }
 }

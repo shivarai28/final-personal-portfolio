@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen } from 'lucide-react';
+import { BookOpen, Download } from 'lucide-react';
 import './Resume.css';
 import { usePortfolioData } from '../hooks/usePortfolioData';
 
@@ -32,8 +32,16 @@ const Resume = () => {
 
     return (
         <article className="resume active">
-            <header>
+            <header className="resume-header">
                 <h2 className="h2 article-title">Resume</h2>
+                <a 
+                    href="/resume.pdf" 
+                    download="Shiva_Rai_Resume.pdf"
+                    className="download-resume-btn"
+                >
+                    <Download size={18} />
+                    <span>Download Resume</span>
+                </a>
             </header>
 
             <section className="timeline">

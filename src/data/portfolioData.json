@@ -1,7 +1,7 @@
 {
   "sidebar": {
     "name": "Shiva Rai",
-    "role": "Backend Developer | Full Stack Developer",
+    "role": " Full Stack Developer",
     "avatar": "https://avatars.githubusercontent.com/u/206543593?s=4000&u=6ebf708f8bb06d4685928cf86ed821fd3628833f&v=4",
     "contacts": [
       {
@@ -35,17 +35,17 @@
     "socials": [
       {
         "platform": "Linkedin",
-        "link": "#",
+        "link": "https://www.linkedin.com/in/shiva-rai-7436b1286",
         "icon": "Linkedin"
       },
       {
         "platform": "Github",
-        "link": "#",
+        "link": "https://github.com/shivarai28",
         "icon": "Github"
       },
       {
         "platform": "Instagram",
-        "link": "#",
+        "link": "https://www.instagram.com/shiv_.28_",
         "icon": "Instagram"
       }
     ]
@@ -72,9 +72,9 @@
         "icon": "Database"
       },
       {
-        "title": "Cloud Architecture",
-        "description": "Deploy and manage applications on cloud platforms with CI/CD.",
-        "icon": "Cloud"
+        "title": "Frontend Development",
+        "description": "Build responsive and user-friendly interfaces using modern web technologies.",
+        "icon": "Code"
       }
     ],
     "skills": [
@@ -107,9 +107,14 @@
     ],
     "experience": [
       {
-        "title": "Internship",
+        "title": "Internship at Omniview Labs",
         "date": "jan 2025 — april 2025",
-        "description": "intern at omniview labs"
+        "description": "worked at their new product named as the opus that is the 3d vr platform for the furnitures this is the b to b platform for the furnitures"
+      },
+      {
+        "title": "Freelance at Autodraft ",
+        "date": "sep 2025 — dec 2025",
+        "description": "worked as the prompt engineer for the autodraft for creating their new function "
       }
     ],
     "skillsText": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, in vel voluptate hic, illo beatae, nobis esse magni at cumque commodi. Dolores, dolorem! Dignissimos quaerat nihil iusto deleniti deserunt perspiciatis!"
